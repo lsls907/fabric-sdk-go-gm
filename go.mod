@@ -12,7 +12,7 @@ require (
 	github.com/hyperledger/fabric-config v0.0.5
 	github.com/hyperledger/fabric-lib-go v1.0.0
 	github.com/hyperledger/fabric-protos-go v0.0.0-20200707132912-fee30f3ccd23
-	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c
+	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20220107084357-a7875b5a087e
 	github.com/miekg/pkcs11 v1.0.3
 	github.com/mitchellh/mapstructure v1.3.3
 	github.com/pkg/errors v0.9.1
@@ -29,7 +29,7 @@ require (
 )
 
 replace (
-	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
+	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20220107084357-a7875b5a087e => ./cfssl
 	github.com/spf13/cast v1.3.1 => ./spf13/cast
 	github.com/spf13/cobra => ./spf13/cobra
 	github.com/spf13/jwalterweatherman => ./spf13/jwalterweatherman

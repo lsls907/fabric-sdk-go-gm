@@ -11,10 +11,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/futurevalue"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/util/concurrent/futurevalue"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
 )
 

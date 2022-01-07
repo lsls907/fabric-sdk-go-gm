@@ -9,18 +9,18 @@ SPDX-License-Identifier: Apache-2.0
 package dynamicdiscovery
 
 import (
-	fabDiscovery "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery"
+	fabDiscovery "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/discovery"
 	"github.com/pkg/errors"
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery"
-	contextAPI "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	pfab "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	discmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/discovery"
+	contextAPI "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	pfab "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	discmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

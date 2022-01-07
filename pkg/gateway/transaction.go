@@ -9,10 +9,10 @@ package gateway
 import (
 	"github.com/hyperledger/fabric-protos-go/peer"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel/invoke"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/channel/invoke"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 /**

@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package dynamicdiscovery
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	coptions "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	coptions "github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
 	"github.com/pkg/errors"
 )
 

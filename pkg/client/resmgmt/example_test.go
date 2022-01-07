@@ -14,14 +14,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	sdkCtx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/resource"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	sdkCtx "github.com/lsls907/fabric-sdk-go-gm/pkg/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/resource"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 	"github.com/hyperledger/fabric-protos-go/common"
 )
 

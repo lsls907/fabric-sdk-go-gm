@@ -9,22 +9,22 @@ package expiredpeer
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	mspclient "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/resmgmt"
+	mspclient "github.com/lsls907/fabric-sdk-go-gm/pkg/client/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/resmgmt"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/mocks"
-	fabImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config/lookup"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/mocks"
+	fabImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/fab"
 )
 
 const (

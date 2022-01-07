@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package sw
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	//bccspSw "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
-	bccspGm "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/wrapper"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	//bccspSw "github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
+	bccspGm "github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/factory"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/wrapper"
 	"github.com/pkg/errors"
 )
 

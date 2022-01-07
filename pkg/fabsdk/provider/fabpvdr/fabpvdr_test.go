@@ -11,19 +11,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/sw"
-	coreMocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/sw"
+	coreMocks "github.com/lsls907/fabric-sdk-go-gm/pkg/core/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
-	fabImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	peerImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/peer"
-	mspImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	fabImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	peerImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/peer"
+	mspImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/msp"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 )
 
 func TestCreateInfraProvider(t *testing.T) {

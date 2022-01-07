@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package mockmsp
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
 )
 
 // MockSigningIdentity ...

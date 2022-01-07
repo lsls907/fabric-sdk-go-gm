@@ -9,8 +9,8 @@ package dispatcher
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

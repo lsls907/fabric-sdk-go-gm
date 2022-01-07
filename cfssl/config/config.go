@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/auth"
-	cferr "github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/errors"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/helpers"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/log"
-	ocspConfig "github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/ocsp/config"
+	"github.com/lsls907/fabric-sdk-go-gm/cfssl/auth"
+	cferr "github.com/lsls907/fabric-sdk-go-gm/cfssl/errors"
+	"github.com/lsls907/fabric-sdk-go-gm/cfssl/helpers"
+	"github.com/lsls907/fabric-sdk-go-gm/cfssl/log"
+	ocspConfig "github.com/lsls907/fabric-sdk-go-gm/cfssl/ocsp/config"
 	"github.com/zmap/zlint/lints"
 )
 

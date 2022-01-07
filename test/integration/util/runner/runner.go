@@ -11,9 +11,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 )
 
 const (

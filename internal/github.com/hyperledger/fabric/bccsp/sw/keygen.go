@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 type ecdsaKeyGenerator struct {

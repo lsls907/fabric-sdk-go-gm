@@ -12,9 +12,9 @@ import (
 	"github.com/tjfoc/gmsm/sm2"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/hyperledger/fabric-protos-go/common"
 )
 

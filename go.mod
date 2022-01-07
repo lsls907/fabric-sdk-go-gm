@@ -1,10 +1,9 @@
-module github.com/VoneChain-CS/fabric-sdk-go-gm
+module github.com/lsls907/fabric-sdk-go-gm
 
 go 1.14
 
 require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
-	github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c
 	github.com/cloudflare/cfssl v1.4.1
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/mock v1.6.0
@@ -13,6 +12,7 @@ require (
 	github.com/hyperledger/fabric-config v0.0.5
 	github.com/hyperledger/fabric-lib-go v1.0.0
 	github.com/hyperledger/fabric-protos-go v0.0.0-20200707132912-fee30f3ccd23
+	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c
 	github.com/miekg/pkcs11 v1.0.3
 	github.com/mitchellh/mapstructure v1.3.3
 	github.com/pkg/errors v0.9.1
@@ -29,7 +29,7 @@ require (
 )
 
 replace (
-	github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
+	github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
 	github.com/spf13/cast v1.3.1 => ./spf13/cast
 	github.com/spf13/cobra => ./spf13/cobra
 	github.com/spf13/jwalterweatherman => ./spf13/jwalterweatherman

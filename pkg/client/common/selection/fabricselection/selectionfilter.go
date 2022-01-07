@@ -10,14 +10,14 @@ import (
 	"context"
 	"sort"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/sorter/balancedsorter"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/sorter/blockheightsorter"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/selection/sorter/balancedsorter"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/selection/sorter/blockheightsorter"
 
-	discclient "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/balancer"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/options"
-	contextAPI "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	discclient "github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/selection/balancer"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/selection/options"
+	contextAPI "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 type selectionFilter struct {

@@ -9,14 +9,14 @@ package pkcs11
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	cryptosuite "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/pkcs11"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/factory/defcore"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration/e2e"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config"
+	cryptosuite "github.com/lsls907/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/pkcs11"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk/factory/defcore"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration/e2e"
 )
 
 const (

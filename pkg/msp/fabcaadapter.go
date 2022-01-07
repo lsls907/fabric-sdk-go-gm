@@ -10,14 +10,14 @@ import (
 	"encoding/json"
 	"github.com/pkg/errors"
 
-	calib "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	caapi "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/api"
+	calib "github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	caapi "github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/msp/api"
 )
 
 // fabricCAAdapter translates between SDK lingo and native Fabric CA API

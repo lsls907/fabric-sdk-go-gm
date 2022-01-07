@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	fabImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config"
+	fabImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

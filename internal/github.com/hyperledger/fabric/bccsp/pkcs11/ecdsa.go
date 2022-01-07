@@ -14,8 +14,8 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/lsls907/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
 )
 
 func (csp *impl) signECDSA(k ecdsaPrivateKey, digest []byte, opts bccsp.SignerOpts) ([]byte, error) {

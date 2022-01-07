@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/client"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/ledger"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	mspclient "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/resmgmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	pmsp "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	lcpackager "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/ccpackager/lifecycle"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/client"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/ledger"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/msp"
+	mspclient "github.com/lsls907/fabric-sdk-go-gm/pkg/client/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/resmgmt"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	pmsp "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config"
+	lcpackager "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/ccpackager/lifecycle"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"log"
 	"os"
@@ -25,7 +25,7 @@ var (
 	secret        = ""
 	channelName   = ""
 	lvl           = logging.DEBUG
-	chaincodrPath = "github.com/VoneChain-CS/fabric-gm/scripts/fabric-samples/chaincode/abstore/go"
+	chaincodrPath = "github.com/lsls907/fabric-gm/scripts/fabric-samples/chaincode/abstore/go"
 )
 
 const (
@@ -190,7 +190,7 @@ func main2() {
 	channelName = "mychannel"
 	cc = "mycc_3"
 	fmt.Println("Reading connection profile..")
-	c := config.FromFile("/opt/goworkspace/src/github.com/VoneChain-CS/fabric-sdk-go-gm/main/config_test.yaml")
+	c := config.FromFile("/opt/goworkspace/src/github.com/lsls907/fabric-sdk-go-gm/main/config_test.yaml")
 	sdk, err := fabsdk.New(c)
 	if err != nil {
 		fmt.Printf("Failed to create new SDK: %s\n", err)
@@ -211,7 +211,7 @@ func main2() {
 	if err != nil {
 
 	}
-	/*label ,ccPkg :=packageCC("/opt/goworkspace/src/github.com/VoneChain-CS/fabric-gm/scripts/fabric-samples/chaincode/abstore/go")
+	/*label ,ccPkg :=packageCC("/opt/goworkspace/src/github.com/lsls907/fabric-gm/scripts/fabric-samples/chaincode/abstore/go")
 	installCC(label,ccPkg,orgResMgmt)
 	packageID := lcpackager.ComputePackageID(label, ccPkg)
 	approveCC(cc,packageID,orgResMgmt)*/
@@ -389,7 +389,7 @@ func createChannel(sdk *fabsdk.FabricSDK, resMgmtClient *resmgmt.Client) {
 	}
 
 	req := resmgmt.SaveChannelRequest{ChannelID: "mychannel",
-		ChannelConfigPath: "/opt/goworkspace/src/github.com/VoneChain-CS/fabric-gm/scripts/fabric-samples/first-network/channel-artifacts/" + "channel.tx",
+		ChannelConfigPath: "/opt/goworkspace/src/github.com/lsls907/fabric-gm/scripts/fabric-samples/first-network/channel-artifacts/" + "channel.tx",
 		//ChannelConfig: channelConfig,
 		SigningIdentities: []pmsp.SigningIdentity{adminIdentity}}
 	txID, _ := resMgmtClient.SaveChannel(req, resmgmt.WithRetry(retry.DefaultResMgmtOpts), resmgmt.WithOrdererEndpoint("orderer.example.com"))

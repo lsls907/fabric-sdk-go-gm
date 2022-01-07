@@ -8,7 +8,7 @@ package httptrace
 
 import (
 	"context"
-	nettrace "github.com/VoneChain-CS/fabric-sdk-go-gm/http/internal/netttrace"
+	nettrace "github.com/lsls907/fabric-sdk-go-gm/http/internal/netttrace"
 	tls "github.com/tjfoc/gmtls"
 	"net"
 	"net/textproto"

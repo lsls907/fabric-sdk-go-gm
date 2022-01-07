@@ -16,22 +16,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/status"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/multi"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/errors/multi"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/common/policydsl"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 )
 
 // TestPrivateDataPutAndGet tests put and get for private data

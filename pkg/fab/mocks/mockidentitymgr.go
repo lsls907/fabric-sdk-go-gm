@@ -9,8 +9,8 @@ package mocks
 import (
 	"fmt"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
 )
 

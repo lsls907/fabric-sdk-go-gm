@@ -9,13 +9,13 @@ package chpvdr
 import (
 	reqContext "context"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	channelImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/chconfig"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	channelImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/channel"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/chconfig"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
 )
 
 var logger = logging.NewLogger("fabsdk")

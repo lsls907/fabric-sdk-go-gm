@@ -5,14 +5,6 @@ cloud.google.com/go/compute/metadata
 # github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
 ## explicit
 github.com/Knetic/govaluate
-# github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
-## explicit
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/crypto/pkcs7
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/csr
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/errors
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/helpers
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/helpers/derhelpers
-github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/log
 # github.com/beorn7/perks v1.0.1
 github.com/beorn7/perks/quantile
 # github.com/bgentry/speakeasy v0.1.0
@@ -232,6 +224,14 @@ github.com/jhump/protoreflect/internal/codec
 github.com/jonboulle/clockwork
 # github.com/json-iterator/go v1.1.11
 github.com/json-iterator/go
+# github.com/lsls907/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
+## explicit
+github.com/lsls907/fabric-sdk-go-gm/cfssl/crypto/pkcs7
+github.com/lsls907/fabric-sdk-go-gm/cfssl/csr
+github.com/lsls907/fabric-sdk-go-gm/cfssl/errors
+github.com/lsls907/fabric-sdk-go-gm/cfssl/helpers
+github.com/lsls907/fabric-sdk-go-gm/cfssl/helpers/derhelpers
+github.com/lsls907/fabric-sdk-go-gm/cfssl/log
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
 # github.com/mattn/go-runewidth v0.0.9

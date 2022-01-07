@@ -9,8 +9,8 @@ package mocks
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 )
 

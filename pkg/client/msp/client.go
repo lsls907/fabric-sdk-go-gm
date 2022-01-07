@@ -18,14 +18,14 @@ package msp
 import (
 	"fmt"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
 
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	mspctx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	mspapi "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/api"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	mspctx "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/msp"
+	mspapi "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/api"
 	"github.com/pkg/errors"
 )
 

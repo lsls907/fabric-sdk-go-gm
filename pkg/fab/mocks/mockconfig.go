@@ -12,14 +12,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/lsls907/fabric-sdk-go-gm/test/metadata"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
-	commtls "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/comm/tls"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
+	commtls "github.com/lsls907/fabric-sdk-go-gm/pkg/core/config/comm/tls"
 	"github.com/pkg/errors"
 )
 

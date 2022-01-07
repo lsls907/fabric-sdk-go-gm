@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	contextAPI "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	pfab "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery"
-	discmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	contextAPI "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/context"
+	pfab "github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/discovery"
+	discmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

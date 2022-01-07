@@ -11,12 +11,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
-	eventservice "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service"
-	esdispatcher "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
+	eventservice "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/events/service"
+	esdispatcher "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
 )
 

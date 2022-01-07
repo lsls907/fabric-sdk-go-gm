@@ -9,8 +9,8 @@ package msp
 import (
 	"github.com/golang/protobuf/proto"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/msp"
 	pb_msp "github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
 )

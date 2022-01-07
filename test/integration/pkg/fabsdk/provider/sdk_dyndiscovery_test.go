@@ -11,14 +11,14 @@ package provider
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/factory/defsvc"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/lsls907/fabric-sdk-go-gm/pkg/context"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk/factory/defsvc"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
+	"github.com/lsls907/fabric-sdk-go-gm/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

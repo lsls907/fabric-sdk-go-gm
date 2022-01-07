@@ -12,9 +12,9 @@ import (
 
 	"sync"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/metadata"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/testdata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/logging/api"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/logging/metadata"
+	"github.com/lsls907/fabric-sdk-go-gm/pkg/core/logging/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

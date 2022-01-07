@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	eventmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/mocks"
-	fabmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	eventmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/events/mocks"
+	fabmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/lsls907/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/require"
 )
 

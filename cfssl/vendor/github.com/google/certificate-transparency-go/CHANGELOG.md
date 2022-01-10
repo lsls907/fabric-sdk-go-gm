@@ -2,18 +2,6 @@
 
 ## HEAD
 
-## v1.1.2
-
-### CTFE
-
- * Removed the `-by_range` flag.
-
-### Updated dependencies
-
- * Trillian from v1.3.11 to v1.4.0
- * protobuf to v2
-
-
 ## v1.1.1
 [Published 2020-10-06](https://github.com/google/certificate-transparency-go/releases/tag/v1.1.1)
 

@@ -17,11 +17,9 @@
 package tools
 
 import (
-	_ "github.com/fullstorydev/grpcurl/cmd/grpcurl"
 	_ "github.com/golang/mock/mockgen"
-	_ "go.etcd.io/etcd/etcdctl/v3"
-	_ "go.etcd.io/etcd/v3"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go"
-	_ "google.golang.org/protobuf/proto"
-	_ "github.com/google/trillian/cmd/createtree"
+	_ "github.com/golang/protobuf/proto"
+	_ "github.com/golang/protobuf/protoc-gen-go"
+	_ "go.etcd.io/etcd"
+	_ "go.etcd.io/etcd/etcdctl"
 )

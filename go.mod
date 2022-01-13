@@ -37,4 +37,5 @@ replace (
 	github.com/spf13/pflag => ./spf13/pflag
 	github.com/tjfoc/gmsm v1.3.2 => ./tjfoc/gmsm
 	github.com/tjfoc/gmtls v1.2.1 => ./tjfoc/gmtls
+	google.golang.org/grpc => google.golang.org/grpc v1.26.0
 )
